@@ -1,0 +1,60 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="12"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        mc:Ignorable="d"
+        Title="SFML Resource Mapper" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" IsMainMenu="True" Background="{DynamicResource MaterialDesignToolBarBackground}">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Open Directory"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="1.5*"/>
+            </Grid.ColumnDefinitions>
+            <GridSplitter Grid.Column="1" Width="5"></GridSplitter>
+            <Grid Grid.Column="2" Margin="17">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Style="{StaticResource MaterialDesignHeadline6TextBlock}" Text="Preview"/>
+                <RichTextBox IsReadOnly="True" Padding="17" Background="{DynamicResource MaterialDesignTextFieldBoxBackground}" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0 17 0 0">
+                    <FlowDocument>
+                        <Paragraph>
+                            <Run Text="#include" Foreground="#df6aad"></Run>
+                            <Run Text="&lt;header&gt;" Foreground="#d69545"></Run>
+                        </Paragraph>
+                        <Paragraph>
+                            <Italic>
+                                <Run Text="auto" Foreground="#3dafa3"></Run>
+                            </Italic>
+                            
+                            <Run Text="mPlayer =" Foreground="#d6bb79"></Run>
+                            <Run Text="someThing" Foreground="#ff8080"></Run>
+
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+            </Grid>
+        </Grid>
+        
+
+    </Grid>
+</Window>
