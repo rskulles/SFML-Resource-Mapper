@@ -1,4 +1,4 @@
-﻿namespace Interfaces
+﻿namespace RES.ResMap.Interfaces
 {
     public interface IResourceMapper
     {

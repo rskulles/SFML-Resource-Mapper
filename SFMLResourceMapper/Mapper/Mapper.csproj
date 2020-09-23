@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>RES.ResMap.Mapper</AssemblyName>
+    <RootNamespace>RES.ResMap.Mapper</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ResourceMapperLibrary\CppGenerator.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{3A40C500-2C0E-4DE0-AA66-0B02D9F7ECF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{3A40C500-2C0E-4DE0-AA66-0B02D9F7ECF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{0FDE53C1-C618-4223-AFCB-A22F2C19B3DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Console", "Console\Console.csproj", "{0FDE53C1-C618-4223-AFCB-A22F2C19B3DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceMapperLibrary", "ResourceMapperLibrary\ResourceMapperLibrary.csproj", "{C014AEB3-D53C-44EA-899B-B4557546F394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CppGenerator", "ResourceMapperLibrary\CppGenerator.csproj", "{C014AEB3-D53C-44EA-899B-B4557546F394}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{CF8B97FA-2A57-4F9C-BD69-18E6E692AEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{CF8B97FA-2A57-4F9C-BD69-18E6E692AEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapper", "Mapper\Mapper.csproj", "{578F2BA4-5018-40F1-8602-A747177AF480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{CF8B97FA-2A57-4F9C-BD69-18E6E692AEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8B97FA-2A57-4F9C-BD69-18E6E692AEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8B97FA-2A57-4F9C-BD69-18E6E692AEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578F2BA4-5018-40F1-8602-A747177AF480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578F2BA4-5018-40F1-8602-A747177AF480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578F2BA4-5018-40F1-8602-A747177AF480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578F2BA4-5018-40F1-8602-A747177AF480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

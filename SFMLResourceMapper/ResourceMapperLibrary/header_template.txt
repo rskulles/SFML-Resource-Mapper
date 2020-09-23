@@ -1,0 +1,26 @@
+﻿#ifndef <CLASS_NAME_UPPER>_H
+#define <CLASS_NAME_UPPER>_H
+
+<INCLUDE_MARKER>
+
+<NAMESPACE_START>
+
+class <CLASS_NAME>
+{
+public:
+
+<PUBLIC_MARKER>
+
+private://Methods
+
+<PRIVATE_METHOD_DECLARATION_MARKER>
+
+private://Members
+
+<PRIVATE_MEMBER_MARKER>
+
+};
+
+<NAMESPACE_END>
+
+#endif //<CLASS_NAME_UPPER>_H

@@ -1,9 +1,11 @@
 ﻿using System;
+
 namespace RES.ResMap.ConsoleRunner
 {
-    class Program
+    // ReSharper disable once ClassNeverInstantiated.Global
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
         }

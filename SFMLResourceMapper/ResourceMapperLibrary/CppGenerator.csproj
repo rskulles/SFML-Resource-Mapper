@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>RES.ResMap.CppGenerator</AssemblyName>
+    <RootNamespace>RES.ResMap.CppGenerator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="definition_template.txt" />
+    <None Remove="header_template.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="definition_template.txt" />
+    <EmbeddedResource Include="header_template.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
